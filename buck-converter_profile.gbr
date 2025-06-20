@@ -1,0 +1,15 @@
+%FSTAX23Y23*%
+%MOIN*%
+%SFA1B1*%
+
+%IPPOS*%
+%ADD31C,0.001000*%
+%LNbuck-converter_profile-1*%
+%LPD*%
+G54D31*
+X00019Y0D02*
+Y00984D01*
+X01988*
+Y0*
+X00019*
+M02*
