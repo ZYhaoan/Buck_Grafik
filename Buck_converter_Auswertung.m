@@ -106,11 +106,20 @@ xlabel('Time');ylabel('Strom');
 
 % Verhältnis zw Ripplestrom und Ron
 figure
-plot(time11,I11,'r',time2,I2,'g',time12,I12+50,'b');
-title('ACS37032 1.3A Ripplestromvergleich');
+plot(time11,I11);
+title('ACS37032 1.3A Ron=75kohm');
 xlabel('time/s');
 ylabel('current/A');
-legend('Ron=75kohm','Ron=100kohm','Ron=150kohm');
+figure
+plot(time2,I2);
+title('ACS37032 1.3A Ron=100kohm');
+xlabel('time/s');
+ylabel('current/A');
+figure
+plot(time12,I12+50);
+title('ACS37032 1.3A Ron=150kohm');
+xlabel('time/s');
+ylabel('current/A');
 
 
 
